@@ -1,0 +1,142 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Adam Ross Russell
+name: Adam Ross Russell
+email: arossrussell@gmail.com
+description: Portfolio for an engineer, account manager, sports lover, rental manager, salesperson, passionate foodie, troubleshooter, resume reviewer, music lover, cat trainer, extrovert, feminist, and remodeler.
+
+display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
+
+theme: jekyll-material-theme
+
+parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+
+# Settings for the porfolio sections
+
+portfolio_heading: Portfolio
+portfolio_type: cards #cards or carousel
+
+project_one: "First Project"
+project_one_description: Describe your project!
+project_one_url: https://github.com/jameshamann/jekyll-material-theme
+project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+
+project_two: Second Project
+project_two_description: Describe your project!
+project_two_url: https://github.com/jameshamann/jekyll-material-theme
+project_two_icon: photo_camera
+
+
+project_three: Third Project
+project_three_description: Describe your project!
+project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_icon: hotel
+
+
+project_four: Fourth Project
+project_four_description: Describe your project!
+project_four_url: https://github.com/jameshamann/jekyll-material-theme
+project_four_icon: restaurant
+
+# Skill icons from https://konpa.github.io/devicon/
+
+skills:
+  - name: amazonwebservices
+  - name: angularjs
+  - name: apache
+  - name: apple
+  - name: atom
+  - name: bitbucket
+  - name: bootstrap
+  - name: bower
+  - name: chrome
+  - name: confluence
+  - name: css3
+  - name: drupal
+  - name: facebook
+  - name: firefox
+  - name: git
+  - name: github
+  - name: google
+  - name: gulp
+  - name: heroku
+  - name: html5
+  - name: itellij
+  - name: javascript
+  - name: laravel
+  - name: linux
+  - name: mysql
+  - name: nginx
+  - name: nodejs
+  - name: photoshop
+  - name: php
+  - name: phpstorm
+  - name: react
+  - name: redhat
+  - name: ruby
+  - name: safari
+  - name: sass
+  - name: slack
+  - name: sourcetree
+  - name: ssh
+  - name: symfony
+  - name: travis
+  - name: trello
+  - name: typescript
+  - name: ubuntu
+  - name: webstorm
+  - name: zend
+    uri: https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/Ansible_logo.png/220px-Ansible_logo.png # Add external icon, for internal icon use uri: /assets/my_icon.jpg
+
+icon_size: 57 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: Github
+
+github: https://github.com/jameshamann/jekyll-material-theme
+medium: https://medium.com
+
+baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
+url: http://localhost:4000/ # The URL of your site
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
