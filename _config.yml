@@ -24,6 +24,7 @@ theme: jekyll-material-theme
 
 parallax_image_one: assets/PJ0A5040.jpg # These are the images used for the parallax background
 parallax_image_two: assets/PJ0A5003.jpg
+parallax_image_three: assets/PJ0A5044.jpg
 logo: assets/logo.png
 
 # Settings for the porfolio sections
@@ -134,7 +135,7 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude: [vendor]
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
