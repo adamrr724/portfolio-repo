@@ -16,38 +16,39 @@
 title: Adam Ross Russell
 name: Adam Ross Russell
 email: arossrussell@gmail.com
-description: Portfolio for an engineer, account manager, sports lover, rental manager, salesperson, passionate foodie, troubleshooter, resume reviewer, music lover, cat trainer, extrovert, feminist, and remodeler.
+description: Portfolio for an engineer, account manager, networker, sports lover, rental manager, salesperson, passionate foodie, troubleshooter, resume reviewer, music lover, cat trainer, extrovert, and remodeler.
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
 theme: jekyll-material-theme
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
+parallax_image_one: assets/PJ0A5040.jpg # These are the images used for the parallax background
+parallax_image_two: assets/PJ0A5003.jpg
+logo: assets/logo.png
 
 # Settings for the porfolio sections
 
 portfolio_heading: Portfolio
 portfolio_type: cards #cards or carousel
 
-project_one: "First Project"
+project_one: Sportal
 project_one_description: Describe your project!
 project_one_url: https://github.com/jameshamann/jekyll-material-theme
 project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
 
-project_two: Second Project
+project_two: Shopping Site
 project_two_description: Describe your project!
 project_two_url: https://github.com/jameshamann/jekyll-material-theme
 project_two_icon: photo_camera
 
 
-project_three: Third Project
+project_three: Photography Site
 project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_url: www.pantherephotography.com
 project_three_icon: hotel
 
 
-project_four: Fourth Project
+project_four: Rental Site
 project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
@@ -107,8 +108,9 @@ colored: colored # Leave blank for black and white icons
 
 project_button: Github
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
+github: https://github.com/arossrussell
+linkedin: https://www.linkedin.com/in/adamrossrussell/
+
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
 url: http://localhost:4000/ # The URL of your site
