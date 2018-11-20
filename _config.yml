@@ -25,7 +25,8 @@ theme: jekyll-material-theme
 parallax_image_one: assets/PJ0A5040.jpg # These are the images used for the parallax background
 parallax_image_two: assets/PJ0A5003.jpg
 parallax_image_three: assets/PJ0A5044.jpg
-logo: assets/logo.png
+logo: assets/adam.jpg
+parallax-face: assets/adam2.jpg
 
 # Settings for the porfolio sections
 
@@ -36,23 +37,25 @@ project_one: Sportal
 project_one_description: Recreational Sports Finding App in Javascript components with a Loopback API
 project_one_url: https://github.com/adamrr724/Sportal-Loopback-Polymer
 project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+project_one_image: assets/Sportal.png
 
 project_two: Shopping Site
 project_two_description: JCrew lookalike site built in Ember.js
 project_two_url: https://github.com/adamrr724/J-Crew-Ember
 project_two_icon: attach_money
-
+project_two_image: assets/JCrew.png
 
 project_three: Photography Site
 project_three_description: Professional Photography Website for Emilie Jensen -- Portland portrait Photographer.
 project_three_url: https://www.pantherephotography.com
 project_three_icon: photo_camera
-
+project_three_image: assets/panthere.png
 
 project_four: Rental Site
 project_four_description: AirBnB lookalike app built in Ember.js.
 project_four_url: https://github.com/adamrr724/Rental-App-Ember
 project_four_icon: hotel
+project_four_image: assets/Airbnb.png
 
 # Skill icons from https://konpa.github.io/devicon/
 
