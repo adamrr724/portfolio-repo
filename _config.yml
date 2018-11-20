@@ -33,26 +33,26 @@ portfolio_heading: Portfolio
 portfolio_type: cards #cards or carousel
 
 project_one: Sportal
-project_one_description: Describe your project!
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
+project_one_description: Recreational Sports Finding App in Javascript components with a Loopback API
+project_one_url: https://github.com/adamrr724/Sportal-Loopback-Polymer
 project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
 
 project_two: Shopping Site
-project_two_description: Describe your project!
-project_two_url: https://github.com/jameshamann/jekyll-material-theme
-project_two_icon: photo_camera
+project_two_description: JCrew lookalike site built in Ember.js
+project_two_url: https://github.com/adamrr724/J-Crew-Ember
+project_two_icon: attach_money
 
 
 project_three: Photography Site
-project_three_description: Describe your project!
-project_three_url: www.pantherephotography.com
-project_three_icon: hotel
+project_three_description: Professional Photography Website for Emilie Jensen -- Portland portrait Photographer.
+project_three_url: https://www.pantherephotography.com
+project_three_icon: photo_camera
 
 
 project_four: Rental Site
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
-project_four_icon: restaurant
+project_four_description: AirBnB lookalike app built in Ember.js.
+project_four_url: https://github.com/adamrr724/Rental-App-Ember
+project_four_icon: hotel
 
 # Skill icons from https://konpa.github.io/devicon/
 
@@ -107,7 +107,7 @@ skills:
 icon_size: 57 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
-project_button: Github
+project_button: Project Link
 
 github: https://github.com/arossrussell
 linkedin: https://www.linkedin.com/in/adamrossrussell/
