@@ -36,6 +36,7 @@ project_one: Sportal
 project_one_description: Recreational Sports Finding App in Javascript components with a Loopback API
 project_one_url: https://github.com/adamrr724/Sportal-Loopback-Polymer
 project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+project_one_image: assets/Sportal.png
 
 project_two: Shopping Site
 project_two_description: JCrew lookalike site built in Ember.js
