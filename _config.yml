@@ -55,7 +55,7 @@ project_four: Rental Site
 project_four_description: AirBnB lookalike app built in Ember.js.
 project_four_url: https://github.com/adamrr724/Rental-App-Ember
 project_four_icon: hotel
-project_four_image: assets/Air/Bnb.png
+project_four_image: assets/AirBnb.png
 
 # Skill icons from https://konpa.github.io/devicon/
 
