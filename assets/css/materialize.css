@@ -2760,15 +2760,17 @@ video.responsive-video {
   color: #fff;
 }
 
-.parallax-logo {
-  height: 150px;
+.parallax-face {
+  height: 200px;
+  border-radius: 50%;
   position:relative;
-    -webkit-filter: drop-shadow(2px 2px white);
-    filter:         drop-shadow(2px 2px white);
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+    filter:         drop-shadow(2px 2px 2px black);
 }
 
 .parallax-text {
-  text-shadow: 1px 2px 2px #000000;
+  color: #eceff1;
+  text-shadow: 3px 3px 3px #000000;
 }
 
 .parallax-container {
