@@ -2828,7 +2828,18 @@ ul.staggered-list li {
   Media Query Classes
 **********************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
+
+  .parallax-container {
+    min-height: 700px;
+  }
+
+  .hide-on-small-only, .hide-on-small-and-down {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
 
 
   .parallax-container .parallax img {
@@ -2838,16 +2849,13 @@ ul.staggered-list li {
     bottom: 0;
     opacity: 0.99;
     max-width: none;
-    max-height: none;
+    min-height: 650px;
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
 
-  .hide-on-small-only, .hide-on-small-and-down {
-    display: none !important;
-  }
 }
 
 @media only screen and (max-width: 992px) {
