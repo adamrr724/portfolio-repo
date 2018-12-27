@@ -2827,7 +2827,24 @@ ul.staggered-list li {
 /*********************
   Media Query Classes
 **********************/
+
 @media only screen and (max-width: 600px) {
+
+
+  .parallax-container .parallax img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0.99;
+    max-width: none;
+    max-height: none;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
