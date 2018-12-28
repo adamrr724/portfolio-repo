@@ -60,7 +60,6 @@ project_four_image: assets/AirBnb.png
 # Skill icons from https://konpa.github.io/devicon/
 
 skills:
-  - name: amazonwebservices
   - name: angularjs
   - name: apache
   - name: apple
@@ -77,7 +76,6 @@ skills:
   - name: git
   - name: github
   - name: google
-  - name: gulp
   - name: heroku
   - name: html5
   - name: itellij
@@ -90,8 +88,6 @@ skills:
   - name: photoshop
   - name: php
   - name: phpstorm
-  - name: react
-  - name: redhat
   - name: ruby
   - name: safari
   - name: sass
@@ -99,13 +95,11 @@ skills:
   - name: sourcetree
   - name: ssh
   - name: symfony
-  - name: travis
   - name: trello
-  - name: typescript
   - name: ubuntu
   - name: webstorm
-  - name: zend
-    uri: https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/Ansible_logo.png/220px-Ansible_logo.png # Add external icon, for internal icon use uri: /assets/my_icon.jpg
+    uri: /assets/zendesk.png
+     # Add external icon, for internal icon use uri: /assets/my_icon.jpg
 
 icon_size: 57 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
