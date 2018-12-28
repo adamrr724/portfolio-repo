@@ -2834,6 +2834,10 @@ ul.staggered-list li {
     min-height: 700px;
   }
 
+  .blog-card {
+    padding-bottom: 100px !important;
+  }
+
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
